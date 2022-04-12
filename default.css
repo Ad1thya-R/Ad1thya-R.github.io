@@ -32,6 +32,11 @@ button {
     padding-top: 20px;
 }
 
+.subheading {
+    font-size: 32px;
+    padding-top: 15px;
+}
+
 button:hover {
     color: var(--prevShadow);
     animation: animate 0.6s;
@@ -147,7 +152,8 @@ h6 {font-size: 16px}
 }
 
 #navigation li:hover{
-    text-shadow: 1.5px 1.5px 1px rgba(0,0,0,0.7);
+    text-shadow: 1.5px 1.5px 1px var(--mainText);
+    opacity: 0.7;
 }
 
 .dots-wrapper {
@@ -308,8 +314,8 @@ h6 {font-size: 16px}
     padding-bottom: 50px;
 }
 
-p .about-me {
-    padding-right: 10px;
+.about-me p{
+    margin-right: 30px;
 }
 
 #polytechnique1 {
