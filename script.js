@@ -1,3 +1,10 @@
+//To make hover work on a mobile website//
+document.addEventListener("touchstart", function() {}, true);
+
+//------------------------------//
+
+
+
 console.log('Its working')
 
 let theme = localStorage.getItem('theme')
