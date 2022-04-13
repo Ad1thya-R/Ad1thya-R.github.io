@@ -344,6 +344,10 @@ h6 {font-size: 16px}
     border-radius: 5px;
 }
 
+#skills ul li{
+    color: #fff;
+}
+
 /* Style all font awesome icons */
 .fa {
     padding: 0;
@@ -530,6 +534,58 @@ h6 {font-size: 16px}
     button{
         font-size: 36px;
     }
+    .education-experience-wrapper {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 320px) !important;
+        gap: 20px;
+        justify-content: center !important;
+        padding-bottom: 50px;
+    }
+
+    .education-experience-img {
+        display: block !important;
+        width: 100% !important;
+        height: 180px !important;
+        object-fit: cover !important;
+    }
+
+    .education-experience{
+        border: 1px solid var(--borderColor);
+
+        -webkit-box-shadow: 1px 1px 2px 0.5px rgba(0,0,0,0.8);
+        box-shadow: 1px 1px 2px 0.5px rgba(0,0,0,0.7);
+
+    }
+
+    .education-experience-preview{
+        background-color: #fff;
+        padding: 15px;
+        position: static !important;
+    }
+
+    .education-experience-title{
+        color: var(--mainText);
+        margin: 0;
+    }
+    .education-experience-intro {
+        color: black;
+    }
+
+    .education-experience-preview li{
+        display: inline-block;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .education-experience-preview li:hover{
+        text-shadow: 1.5px 1.5px 1px var(--mainText);
+        opacity: 0.7;
+
+        cursor: pointer;
+    }
+
+
 }
+
 
 
