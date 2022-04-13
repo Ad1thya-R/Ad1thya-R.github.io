@@ -11,6 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto:wght@400;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link id="theme-style" rel="stylesheet" type="text/css" href="">
 </head>
 
 <body>
@@ -50,10 +52,9 @@
                     <img id="profile-pic" src="profile_pic.jpeg">
                     <p style="text-align: center;line-height: 0; font-weight: 900; padding-top: 20px;">Personalize Theme</p>
                     <div id="theme-options-wrapper">
-                        <div id="light-mode" class="theme-dot"></div>
-                        <div id="blue-mode" class="theme-dot"></div>
-                        <div id="red-mode" class="theme-dot"></div>
-                        <div id="purple-mode" class="theme-dot"></div>
+                        <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                        <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+                        <div data-mode="red" id="red-mode" class="theme-dot"></div>
                     </div>
                 </div>
                 <div class="right-col">
@@ -131,46 +132,166 @@
 
     <section class="s1">
         <div class="main-container">
+            <div class="greet-wrapper">
+                <div class="A">
+                    <div class="B">
+                        <button class="about">P</button><button class="about">r</button><button class="about">o</button><button class="about">j</button><button class="about">e</button><button class="about">c</button><button class="about">t</button><button class="about">s</button>
+                    </div>
+                </div>
+            </div>
             <div class="projects-wrapper">
-                <div class="greet-wrapper">
-                    <div class="A">
-                        <div class="B">
-                            <button class="about">P</button><button class="about">r</button><button class="about">o</button><button class="about">j</button><button class="about">e</button><button class="about">c</button><button class="about">t</button><button class="about">s</button>
+                <div class="project">
+                    <img class="project-img"  src="profile_pic.jpeg">
+                    <div class="post-preview">
+                        <div class="post-title">
+                            <button class="subheading">D</button><button class="subheading">a</button><button class="subheading">t</button><button class="subheading">a</button>
+                            <button class="subheading">S</button><button class="subheading">c</button><button class="subheading">i</button><button class="subheading">e</button><button class="subheading">n</button><button class="subheading">c</button><button class="subheading">e</button>
                         </div>
+                        <p class="post-intro">This is a sentence. Some more text.</p>
+                        <li><a href="#">See more / Download</a></li>
                     </div>
                 </div>
                 <div class="project">
-                    <img src="profile_pic.jpeg">
+                    <img class="project-img"  src="profile_pic.jpeg">
                     <div class="post-preview">
-                        <button class="subheading">D</button><button class="subheading">a</button><button class="subheading">t</button><button class="subheading">a</button>
-                        <button class="subheading">S</button><button class="subheading">c</button><button class="subheading">i</button><button class="subheading">e</button><button class="subheading">n</button><button class="subheading">c</button><button class="subheading">e</button>
+                        <div class="post-title">
+                            <button class="subheading">S</button><button class="subheading">t</button><button class="subheading">a</button><button class="subheading">r</button><button class="subheading">l</button><button class="subheading">i</button><button class="subheading">n</button><button class="subheading">k</button>
+                        </div>
+                        <p class="post-intro">This is a sentence. Some more text.</p>
+                        <li><a href="#">See more / Download</a></li>
                     </div>
-                    <p class="post-intro">This is a sentence. Some more text.</p>
                 </div>
                 <div class="project">
-                    <img src="profile_pic.jpeg">
+                    <img class="project-img"  src="profile_pic.jpeg">
                     <div class="post-preview">
-                        <button class="subheading">D</button><button class="subheading">a</button><button class="subheading">t</button><button class="subheading">a</button>
-                        <button class="subheading">S</button><button class="subheading">c</button><button class="subheading">i</button><button class="subheading">e</button><button class="subheading">n</button><button class="subheading">c</button><button class="subheading">e</button>
+                        <div class="post-title">
+                            <button class="subheading">T</button><button class="subheading">h</button><button class="subheading">e</button>
+                            <button class="subheading">F</button><button class="subheading">i</button><button class="subheading">r</button><button class="subheading">s</button><button class="subheading">t</button>
+                            <button class="subheading">M</button><button class="subheading">a</button><button class="subheading">r</button><button class="subheading">t</button><button class="subheading">i</button><button class="subheading">a</button><button class="subheading">n</button>
+                        </div>
+                        <p class="post-intro">This is a sentence. Some more text.</p>
+                        <li><a href="#">See more / Download</a></li>
                     </div>
-                    <p class="post-intro">This is a sentence. Some more text.</p>
-                </div>
-                <div class="project">
-                    <img src="profile_pic.jpeg">
-                    <div class="post-preview">
-                        <button class="subheading">D</button><button class="subheading">a</button><button class="subheading">t</button><button class="subheading">a</button>
-                        <button class="subheading">S</button><button class="subheading">c</button><button class="subheading">i</button><button class="subheading">e</button><button class="subheading">n</button><button class="subheading">c</button><button class="subheading">e</button>
-                    </div>
-                    <p class="post-intro">This is a sentence. Some more text.</p>
                 </div>
             </div>
         </div>
     </section>
+
+
     <section class="s2">
         <div class="main-container">
-            Contact
+            <div class="greet-wrapper">
+                <div class="A">
+                    <div class="B">
+                        <button class="about">E</button><button class="about">d</button><button class="about">u</button><button class="about">c</button><button class="about">a</button><button class="about">t</button><button class="about">i</button><button class="about">o</button><button class="about">n</button>
+                    </div>
+                </div>
+            </div>
+            <div class="education-experience-wrapper">
+                <div class="education-experience">
+                    <img id=#img1 class="education-experience-img"  src="profile_pic.jpeg">
+                    <div class="education-experience-preview">
+                        <div id=post-1-title class="education-experience-title">
+                            <button class="subheading">D</button><button class="subheading">a</button><button class="subheading">t</button><button class="subheading">a</button>
+                            <button class="subheading">S</button><button class="subheading">c</button><button class="subheading">i</button><button class="subheading">e</button><button class="subheading">n</button><button class="subheading">c</button><button class="subheading">e</button>
+                        </div>
+                        <p id="post-1-intro" class="education-experience-intro">This is a sentence. Some more text.</p>
+                        <li><a href="#">See more / Download</a></li>
+                    </div>
+                </div>
+                <div class="education-experience">
+                    <img class="education-experience-img"  src="profile_pic.jpeg">
+                    <div class="education-experience-preview">
+                        <div id="post-2-title" class="education-experience-title">
+                            <button class="subheading">D</button><button class="subheading">a</button><button class="subheading">t</button><button class="subheading">a</button>
+                            <button class="subheading">S</button><button class="subheading">c</button><button class="subheading">i</button><button class="subheading">e</button><button class="subheading">n</button><button class="subheading">c</button><button class="subheading">e</button>
+                        </div>
+                        <p id="post-2-intro" class="education-experience-intro">This is a sentence. Some more text.
+                            This is a sentence. Some more text. This is a sentence. Some more text.
+                            This is a sentence. Some more text.</p>
+                        <li><a href="#">See more / Download</a></li>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+
+    <section class="s1">
+        <div class="main-container">
+            <div class="greet-wrapper">
+                <div class="A">
+                    <div class="B">
+                        <button class="about">E</button><button class="about">x</button><button class="about">p</button><button class="about">e</button><button class="about">r</button><button class="about">i</button><button class="about">e</button><button class="about">n</button><button class="about">c</button><button class="about">e</button>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-wrapper">
+                <div class="project">
+                    <img class="project-img"  src="profile_pic.jpeg">
+                    <div class="post-preview">
+                        <div class="post-title">
+                            <button class="subheading">S</button><button class="subheading">p</button><button class="subheading">h</button><button class="subheading">e</button><button class="subheading">r</button><button class="subheading">e</button>
+                            <button class="subheading">A</button><button class="subheading">P</button><button class="subheading">I</button>
+                        </div>
+                        <p class="post-intro">This is a sentence. Some more text.</p>
+                        <li><a href="#">See more</a></li>
+                    </div>
+                </div>
+                <div class="project">
+                    <img class="project-img"  src="profile_pic.jpeg">
+                    <div class="post-preview">
+                        <div class="post-title">
+                            <button class="subheading">A</button><button class="subheading">s</button><button class="subheading">c</button><button class="subheading">i</button><button class="subheading">e</button><button class="subheading">n</button><button class="subheading">t</button><button class="subheading">i</button><button class="subheading">a</button>
+                        </div>
+                        <p class="post-intro">This is a sentence. Some more text.</p>
+                        <li><a href="#">See more</a></li>
+                    </div>
+                </div>
+                <div class="project">
+                    <img class="project-img"  src="profile_pic.jpeg">
+                    <div class="post-preview">
+                        <div class="post-title">
+                            <button class="subheading">L</button><button class="subheading">U</button><button class="subheading">X</button><button class="subheading">M</button><button class="subheading">U</button><button class="subheading">N</button>
+                        </div>
+                        <p class="post-intro">This is a sentence. Some more text.</p>
+                        <li><a href="#">See more</a></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="s2">
+        <div class="main-container">
+            <div class="greet-wrapper">
+                <div class="A">
+                    <div class="B">
+                        <button class="about">G</button><button class="about">e</button><button class="about">t</button>
+                        <button class="about">i</button><button class="about">n</button>
+                        <button class="about">t</button><button class="about">o</button><button class="about">u</button><button class="about">c</button><button class="about">h</button>
+                    </div>
+                </div>
+            </div>
+            <form id="contact-form">
+                <label>Name</label>
+                <input class="input-field" type="text" name="name">
+
+                <label>Subject</label>
+                <input class="input-field" type="text" name="subject">
+
+                <label>Email</label>
+                <input class="input-field" type="text" name="email">
+
+                <label>Message</label>
+                <textarea class="input-field" name="message"></textarea>
+
+
+                <input id="submit-btn" type="submit" value="Send">
+            </form>
+
+        </div>
+    </section>
+
 </body>
 
 </html>

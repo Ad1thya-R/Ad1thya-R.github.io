@@ -1,0 +1,24 @@
+:root{
+
+    --mainColor:darkred;
+    --secondaryColor: #3a0000;
+
+    --borderColor: #000000;
+
+    --mainText:#fff;
+    --secondaryText:#eeeeee;
+
+    --themeDotBorder:#FFF;
+
+    --previewColor: rgba(52, 25, 25, 0.8);
+    --prevShadow: rgba(255, 85, 0, 0.8);
+
+
+    --buttonColor:#17a2b8;
+
+    --polytechnique:rgba(255,255,255,1);
+    --bouncyhover: rgba(255, 85, 0, 0.8);
+    --linkcolor: rgba(255, 85, 0, 0.8);
+
+
+}
