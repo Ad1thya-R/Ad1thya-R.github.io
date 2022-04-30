@@ -153,18 +153,18 @@ h6 {font-size: 16px}
     background-color: var(--mainColor);
 }
 
-#navigation {
+.navigation {
     margin: 0;
     padding: 10px;
 }
 
-#navigation li{
+.navigation li{
     display: inline-block;
     margin-right: 5px;
     margin-left: 5px;
 }
 
-#navigation li:hover{
+.navigation li:hover{
     text-shadow: 1.5px 1.5px 1px var(--mainText);
     opacity: 0.7;
 }
@@ -371,6 +371,7 @@ h6 {font-size: 16px}
     gap: 20px;
     justify-content: center;
     padding-bottom: 50px;
+
 }
 
 .project-img {
@@ -385,6 +386,7 @@ h6 {font-size: 16px}
 
     -webkit-box-shadow: 1px 1px 2px 0.5px rgba(0,0,0,0.8);
     box-shadow: 1px 1px 2px 0.5px rgba(0,0,0,0.7);
+    background-color: white;
 
 }
 
@@ -622,8 +624,12 @@ h6 {font-size: 16px}
 }
 
 .SEO {
-    font-size: 1px;
+    font-size: 0px;
     margin: 0px;
     padding: 0px;
     visibility: hidden;
+}
+
+#footer {
+    padding: 20px;
 }
